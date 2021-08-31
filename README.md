@@ -1,5 +1,5 @@
 # Monkey-Language
-# implementasi ulang dari bahasa Golang ke bahasa Nim
+Implementasi ulang dari bahasa Golang ke bahasa Nim
 
 Monkey-Language in Nim based on Thorsten Ball's Book "Writing an Interpreter in Go"
 
