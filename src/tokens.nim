@@ -55,7 +55,10 @@ var
     "else": ELSE,
     "return": RETURN
  }.newTable
-
+ 
+#berikut style dri golang
+# cara lain bisa dengan cara
+# return keywords.getOrDefault(ident,IDENT)
 proc LookupIdent*(ident: string): TokenType =
     if keywords.hasKey(ident):
        return keywords[ident]
